@@ -17,9 +17,10 @@ public class LinearQueue {
 	}
 	
 	public void pop() {
-		int item = arr[front];
-		arr[front] = 0;
-		front = (front + 1) % SIZE;
+		front++;
+//		int item = arr[front];
+//		arr[front] = 0;
+//		front = (front + 1) % SIZE;
 	}
 	
 	public int peek() {
